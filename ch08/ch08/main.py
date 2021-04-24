@@ -77,9 +77,9 @@ print(letters)
 
 # dictionaries (key-value pairs). You don't have to keep types consistent. 1 : 'one'
 spanish_english = {
-    'uno' : 'one',
-    'dos' : 'two',
-    'tres' : 'three'
+    'uno': 'one',
+    'dos': 'two',
+    'tres': 'three'
 }
 print(spanish_english)
 # get value by key
@@ -119,3 +119,4 @@ else:
 # pop, popitem
 print('popitem', spanish_english.popitem())
 print('pop(1)', spanish_english.pop('dos'))
+
