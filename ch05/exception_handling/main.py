@@ -12,7 +12,8 @@ while not valid_x:
         print('finally appears no matter what, can be used to close a connection')
 print(x, type(x))
 
-# there is no python try with resources, finally releases the resources 
+# there is no python try with resources, finally releases the resources
+# you can continue the code in the try section of the statement, or after the rest of the code
 
 
 print("Goodbye")
