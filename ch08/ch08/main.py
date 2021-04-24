@@ -74,3 +74,48 @@ letters = letters * 2
 print(letters)
 
 # a tuple is an immutable list, uses ( ) instead of [ ]
+
+# dictionaries (key-value pairs). You don't have to keep types consistent. 1 : 'one'
+spanish_english = {
+    'uno' : 'one',
+    'dos' : 'two',
+    'tres' : 'three'
+}
+print(spanish_english)
+# get value by key
+print(spanish_english['dos'])
+print(spanish_english.get('uno'))
+
+# add an element to the dictionary
+spanish_english['quarto'] = 'four'
+print(spanish_english)
+
+# change an element
+# spanish_english[1] = 1111
+# print(spanish_english)
+
+# iterate through the dictionary
+for key in spanish_english:
+    print(key)
+
+# values
+for value in spanish_english.values():
+    print(value)
+
+# key:value paris
+for k, v, in spanish_english.items():
+    print(f'key {k} : value {v}')
+
+# does a key exist?
+if 'uno' in spanish_english:
+    print('uno was found')
+if 'dos' in spanish_english:
+    print('dos is in there')
+if 'cinco' in spanish_english:
+    print('yeah right')
+else:
+    print('cinco doesnt exist')
+
+# pop, popitem
+print('popitem', spanish_english.popitem())
+print('pop(1)', spanish_english.pop('dos'))
