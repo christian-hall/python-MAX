@@ -1,16 +1,19 @@
-# This is a sample Python script.
+# Chapter 6 - the integrated debugger
+# Using it in pycharm
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+print('Welcome to the chapter 5 homework')
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def hello_message(name):
+    print(f'Welcome to my app, {name}!!')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+name = input('What is your name? ')
+hello_message(name)
+
+# Step over
+# Step Into
+# Step into my code
+# Force Step-Into
+# Step Out
+# Run to my Cursor
