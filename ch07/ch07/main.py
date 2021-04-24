@@ -1,4 +1,7 @@
 # Chapter 7 - Classes & Methods
+# could also 'import circle'
+# could also 'import circle as cir'
+from circle import Circle
 
 # going to create a class within a python script (creating classes that are their own files later)
 # in python, the 'pass' keyword can be used in the absence of any other real code to prevent errors
@@ -24,8 +27,14 @@ class Rectangle:
 
 rectangle_1 = Rectangle(5, 6)
 rectangle_2 = Rectangle(10, 25)
+circle_1 = Circle(3)
+circle_2 = Circle(5)
 
 print(f'Rectangle 1 Area = {rectangle_1.area()}')
 print(f'Rectangle 1 Perimeter = {rectangle_1.perimeter()}')
 print(f'Rectangle 2 Area = {rectangle_2.area()}')
 print(f'Rectangle 2 Perimeter = {rectangle_2.perimeter()}')
+print(f'Circle 1 area = {circle_1.area()}')
+print(f'Circle 2 area = {circle_2.area()}')
+# print a property in an object
+print(f'Circle 1 radius = {circle_1.radius}')
