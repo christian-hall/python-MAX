@@ -7,6 +7,7 @@ class Contact:
         self.email = email
         self.phone = phone
 
+    # could also def __str__(self): directly, then you could just print the new contact with print(object)
     def print_contact(self):
         print()
         print('--------------------------------------------')

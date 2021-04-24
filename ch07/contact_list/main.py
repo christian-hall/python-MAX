@@ -8,7 +8,6 @@ while choice.lower() == 'y':
     email = input('Enter email: ')
     phone = input('Enter phone (###-###-####): ')
     contacts.append(Contact(first_name, last_name, email, phone))
-    print()
     choice = input('Add another contact? (y/n)')
     print()
 choice = 'y'
